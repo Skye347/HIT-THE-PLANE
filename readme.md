@@ -20,6 +20,7 @@ Visual Studio 2015 RC (vc++14)
 SFML 2.3
 
 ### main()代码
+<pre><code>
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(480, 800), "SFML works!",sf::Style::Close);
@@ -163,3 +164,4 @@ int main()
 	TerminateThread(levelThread, 1);
 	return 0;
 }
+</code></pre>
